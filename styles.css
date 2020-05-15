@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+*{
+  box-sizing: border-box;
+}
+html{
+
+}
+body{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.2rem;
+
+  background-image: url("images/bg.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: top right;
+  background-attachment: fixed;
+  /* background-size: 700px; */
+  background-size: 50%;
+
+}
+main{
+
+}
+header{
+  margin: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.4rem;
+  text-align: right;
+  width: 48%;
+  /* margin-right: 150px; */
+}
+header a{
+  color: #000000;
+  text-decoration: none;
+  /* padding-left: 15px; */
+}
+header a:hover{
+  color: #833bfa;
+}
+.workSection{
+  margin: 20px;
+  padding: 10px;
+  text-align: right;
+  width: 48%;
+}
+.works{
+  margin: 10px;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.works a{
+  color: #000000;
+  text-decoration: none;
+}
+.works a:hover{
+  color: #833bfa;
+}
+footer{
+
+}
+@media screen and (max-width: 815px){
+  body{
+    background-size: 100%;
+
+  }
+  header{
+    text-align: center;
+    width: 100%;
+  }
+  main{
+
+  }
+  .workSection{
+    text-align: center;
+    width: 100%;
+  }
+  .works{
+    margin: 10px;
+  }
+  footer{
+
+  }
+}
