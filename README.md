@@ -1,5 +1,4 @@
 # Vesper's website
-=================
 
 To do list
 -----------
