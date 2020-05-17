@@ -5,8 +5,9 @@ To do list
 -----------
 
 * contact layout
-* image gallery
-* photo sorting
+* video format
+* add pictures
+* responsive layout
 
 ---------------
 
@@ -18,4 +19,4 @@ To do list
   - 10:20-11:20
   - 12:40-13:20
   - 15:07-15:50
-  - 16:40-
+  - 16:40-17:40
