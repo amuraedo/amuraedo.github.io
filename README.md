@@ -4,9 +4,8 @@ To do list
 -----------
 
 * contact layout
-* video format
 * add pictures
-* responsive layout
+* img clicked popup modal
 
 ---------------
 
@@ -14,8 +13,12 @@ To do list
 * 17.03 (total: 1h 10')
   - 13:20-14:30
 
-* 17.05 (total:)
+* 17.05 (total: 3h 23')
   - 10:20-11:20
   - 12:40-13:20
   - 15:07-15:50
   - 16:40-17:40
+
+* 18.05(total: 1h 35')
+  - 12:00-12:50
+  - 16:55-17:40
