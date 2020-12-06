@@ -3,9 +3,9 @@
 To do list
 -----------
 
-* contact layout
 * add pictures
 * img clicked popup modal
+* 프린터 프론트 사진 대체
 
 ---------------
 
@@ -22,6 +22,7 @@ To do list
 * 18.05(total: 1h 35')
   - 12:00-12:50
   - 16:55-17:40
-  
+
 * 06.12.2020(total: )
-  - 13:00 - 
+  - 13:00 - 15:35
+  - 15:45 -
