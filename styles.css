@@ -12,7 +12,7 @@ body{
   font-style: normal;
   font-weight: 300;
   line-height: 1.3;
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -31,7 +31,8 @@ header{
   margin-top: 20px;
   margin-left: 20px;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.3;
   width: 20%;
 }
 .homeHeader{
@@ -50,19 +51,20 @@ section{
   width: 90%;
   margin-left: 20px;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 300;
 }
 .contact{
-  margin: 10% auto;
+  margin: 8% auto;
+  font-size: 0.9rem;
 }
 .cv{
   width: 90%;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 .cvHead{
   text-align: right;
@@ -130,7 +132,7 @@ address a{
   width: 100%;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.1;
 }
 .worksRow img{
@@ -158,7 +160,7 @@ address a{
   width: 100%;
   height: 100%;
   visibility: hidden;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   text-align: center;
 	position: absolute;
@@ -182,11 +184,10 @@ address a{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
-  margin: 10px;
  }
  .caption h4{
    margin-top: 0;
-   margin-bottom: 5px;
+   margin-bottom: 4px;
  }
 .hvrImg:hover .txtImg{
   visibility: visible;
@@ -207,7 +208,7 @@ address a{
 .workheaderContainer{
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.5;
 }
 .workheaderContainer h1{
@@ -255,15 +256,14 @@ address a{
 @media screen and (max-width: 840px){
   body{
     background-size: 100%;
-    font-size: 1rem;
-    line-height: 1.2;
+    font-size: 0.9rem;
+    line-height: 1.3;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
   header{
-    font-size: 1rem;
-    line-height: 1.2;
+    font-size: 0.9rem;
     width: 95%;
     display: flex;
     flex-direction: row;
@@ -299,9 +299,9 @@ address a{
   }
   .cv{
     width: 95%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.5;
-    margin: 0 auto auto -10px;
+    margin: 8% auto auto -10px;
   }
   .cvHead{
     margin: 0;
@@ -316,25 +316,6 @@ address a{
   .cvList h4{
     margin-bottom: 3px;
   }
-  /* .worksFront{
-    width: 100%;
-    font-size: 0.85rem;
-    line-height: 1;
-    justify-content: center;
-    margin: 0 auto auto -10px;
-  }
-  .workBlock{
-    margin-left: 0;
-    margin-bottom: 0;
-    align-content: flex-start;
-    align-items: flex-start;
-  } */
-
-  /* .workBlock img{
-    width: 150px;
-    height: auto;
-    margin: 0;
-  } */
 
   .worksColumn{
     -ms-flex: 50%;
@@ -440,7 +421,7 @@ address a{
 
 @media screen and (max-width: 600px) {
   header{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.1;
     margin: 20px auto 10px auto;
     margin-left: 5px;
@@ -448,6 +429,9 @@ address a{
   }
   .homeHeader{
     margin-bottom: 5px;
+  }
+  .cv{
+    font-size: 0.7rem;
   }
 
   .worksRow{
@@ -458,10 +442,15 @@ address a{
     flex: 100%;
     max-width: 100%;
   }
+  .txtImg{
+    font-size: 0.7rem;
+    line-height: 1.4;
+  }
+
 
   .workheaderContainer{
-    font-size: 0.8rem;
-    line-height: 1.3;
+    font-size: 0.6rem;
+    line-height: 1.4;
   }
   .workheaderContainer p{
     margin-top: 9px;
